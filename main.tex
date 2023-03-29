@@ -1,0 +1,238 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Huy Ly} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:084393172020}{+84 39 317 2020}
+    $|$
+    \faAt \hspace{.5pt} \href{lygiahuy11111998.hcmus@gmail.com}{lygiahuy11111998.hcmus@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/huy-ly-82b053170/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/huylg}{GitHub}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://goo.gl/maps/DxRvPK8UfUGigbXUA}{Ho Chi Minh, Vietnam}
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeEducationHeading
+      {University of Science
+      }{Ho Chi Minh, Vietnam}
+      {B.Sc. Degree in Computer Engineering;   \textbf{GPA: 3.4/4.00}}{Aug 2016 \textbf{--} Aug 2020}
+    
+    
+  \resumeSubHeadingListEnd
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Secutix Group}{Ho Chi Minh, Vietnam}
+      {Software Engineer}{Nov 2020 \textbf{--} Now}
+    
+    % \vspace{15pt}
+    \resumeSubheading
+      {VNG Corporation}{Ho Chi Minh, Vietnam}
+      {Software Developer Fresher}{ Jul 2020 \textbf{--} Aug 2021}
+
+  \resumeSubHeadingListEnd
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{Tixngo Mobile App} $|$ \emph{\href{https://www.secutix.com/tixngo}{\color{blue}Link}}}{}
+          \resumeItemListStart
+            \resumeItem{Tixngo is a Secutix’s product, a secure mobile ticketing application built on top of blockchain technology. Its’ aim is to upgrade security, reduce fraud, and digitalize your tickets purchase processes.}
+            \resumeItem{Designed and implemented a brand new spectator mobile application using flutter.}
+            \resumeItem{Improve testing efficiency by reducing testing time from 4 hours per testing cycle to just 20 minutes per cycle through the implementation of a robust test automation suite integrated with Flutter intergration test.}
+            \resumeItem{Increase shipping efficiency by reducing the time it takes to ship a product from 40 minutes per cycle to just 10 minutes per cycle by implementing a fully automated CI/CD pipeline.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Tixngo Admintool} $|$ \emph{\href{https://www.secutix.com/tixngo}{\color{blue}Link}}}{}
+          \resumeItemListStart
+            \resumeItem{Tixngo's admintool is used to manage and monitor data related to event listings, ticket sales, customers, and payments. The Flutter-based web application provides an efficient and user-friendly interface for administrators to perform these tasks.}
+            \resumeItem{Developed an efficient and user-friendly admintool web application utilizing Flutter technology, enabling effective management and monitoring of critical data related to Tixngo's customers.}
+            \resumeItem{Implemented a robust and automated CI/CD pipeline, enabling faster and higher-quality software delivery.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{Tixngo Console} $|$ \emph{\href{https://www.secutix.com/tixngo}{\color{blue}Link}}}{}
+          \resumeItemListStart
+	  \resumeItem{Tixngo console is a cross-platform app developed using Flutter technology, providing a seamless and intuitive experience for customer service representatives to efficiently manage and monitor data across multiple customers on the Tixngo platform.}
+          \resumeItem{developed and designed the Tixngo console app, utilizing Flutter technology to create an intuitive and cross-platform tool that streamlines data management and monitoring tasks, significantly improving the efficiency of customer service representatives.}
+          \resumeItemListEnd
+
+	
+      \resumeProjectHeading
+        {\textbf{vTeam}}{}
+          \resumeItemListStart
+            \resumeItem{vTeam App is the messaging app for your organization workspace for real-time collaboration and communication, meetings, file and app sharing, and even the occasional emoji! All in one place, all in the open, all accessible to everyone.}
+            \resumeItem{designed, implemented, and optimized a ios application for sending and receiving real-time messages, including various types of media such as text, image, multiple images, video, audio, and files using UIKit and Swift }
+          \resumeItemListEnd
+
+
+      \resumeProjectHeading
+        {\textbf{vCS} $|$ \emph{\href{https://apps.apple.com/vn/app/vcs-123cs/id1191433891}{\color{blue}Appstore}}}{}
+          \resumeItemListStart
+          \resumeItem{vCS (123CS) is an application of VNG Cloud, which is a user application of the call center system on mobile phones, supporting call reception and call transfer.}
+	  \resumeItem{Implemented and improved of various communication application features, including call recording, transfer, history, details, forwarding, conference, hold, mute, and rating using UIKit and Swift.}
+          \resumeItemListEnd
+	
+
+      \resumeProjectHeading
+        {\textbf{vCloudCam} $|$ \emph{\href{https://apps.apple.com/vn/app/vcloudcam/id1439880879}{\color{blue}Appstore}}}{}
+          \resumeItemListStart
+            \resumeItem{Cloudcam is a product of VNG Cloud, providing online monitoring and storage services on cloud computing technology platform, supporting using multi-platform application (Web, Mobile App, Desktop).}
+            \resumeItem{Delivered new features such as FishEye video processing, multiple camera support, and authentication features like sign in, sign up, and change password, enhancing the usability and functionality of various applications using UIKit and Swift.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+
+\end{document}
