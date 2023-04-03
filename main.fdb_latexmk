@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1680070913 "main.tex" "main.pdf" "main" 1680070914 0
+["pdflatex"] 1680492580 "main.tex" "main.pdf" "main" 1680492582 0
   "/usr/local/texlive/2023basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2023basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2023basic/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -99,9 +99,9 @@
   "/usr/local/texlive/2023basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1680059812 79584 3a205fdb82845d155abffbc1dc8d0d44 ""
   "/usr/local/texlive/2023basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1680057430 7200382 d1ad7e8a6c1cdac8775fdd0ca717b350 ""
   "/usr/local/texlive/2023basic/texmf.cnf" 1678817979 628 bde3cc671e29677eea4172140533535c ""
-  "main.aux" 1680070914 957 08689f8574d174cb7053f72e28d9b040 "pdflatex"
-  "main.out" 1680070914 292 9ebe1d0d93f7c2634093e4e566c16998 "pdflatex"
-  "main.tex" 1680070913 9074 5c63cfa97e355939917e55cb03403a72 ""
+  "main.aux" 1680492582 957 08689f8574d174cb7053f72e28d9b040 "pdflatex"
+  "main.out" 1680492582 292 9ebe1d0d93f7c2634093e4e566c16998 "pdflatex"
+  "main.tex" 1680492572 9048 fef30295e4ddb8e3ba96afbc13fe11a2 ""
   (generated)
   "main.aux"
   "main.log"
