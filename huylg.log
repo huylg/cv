@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.29)  12 APR 2023 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.29)  12 APR 2023 11:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**huylg.tex
+(./huylg.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023basic/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -244,8 +244,8 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box55
-) (./main.aux)
-\openout1 = `main.aux'.
+) (./huylg.aux)
+\openout1 = `huylg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
 LaTeX Font Info:    ... okay on input line 129.
@@ -280,9 +280,9 @@ LaTeX Font Info:    ... okay on input line 129.
 \everyMPtoPDFconversion=\toks25
 )
 Package hyperref Info: Link coloring OFF on input line 129.
- (./main.out) (./main.out)
+ (./huylg.out) (./huylg.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `huylg.out'.
 
 
 
@@ -319,23 +319,23 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/usr/local/texlive/2023basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2023basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}] (./main.aux)
+{/usr/local/texlive/2023basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2023basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}] (./huylg.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
+Package rerunfilecheck Info: File `huylg.out' has not changed.
 (rerunfilecheck)             Checksum: 9EBE1D0D93F7C2634093E4E566C16998;292.
  ) 
 Here is how much of TeX's memory you used:
  11943 strings out of 477476
- 189479 string characters out of 5824244
+ 189496 string characters out of 5824244
  1880388 words of memory out of 5000000
  32031 multiletter control sequences out of 15000+600000
  518870 words of font info for 57 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,11n,76p,306b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,307b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 123982 bytes).
+Output written on huylg.pdf (1 page, 123982 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream

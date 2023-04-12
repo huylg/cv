@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1681272189 "main.tex" "main.pdf" "main" 1681272190 0
+["pdflatex"] 1681273818 "huylg.tex" "huylg.pdf" "huylg" 1681273819 0
   "/usr/local/texlive/2023basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2023basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2023basic/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -99,12 +99,12 @@
   "/usr/local/texlive/2023basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1680059812 79584 3a205fdb82845d155abffbc1dc8d0d44 ""
   "/usr/local/texlive/2023basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1680057430 7200382 d1ad7e8a6c1cdac8775fdd0ca717b350 ""
   "/usr/local/texlive/2023basic/texmf.cnf" 1678817979 628 bde3cc671e29677eea4172140533535c ""
-  "main.aux" 1681272190 957 08689f8574d174cb7053f72e28d9b040 "pdflatex"
-  "main.out" 1681272190 292 9ebe1d0d93f7c2634093e4e566c16998 "pdflatex"
-  "main.tex" 1681272185 9048 e48ffbbe1423684cd3e65ddb0d981396 ""
+  "huylg.aux" 1681273819 957 08689f8574d174cb7053f72e28d9b040 "pdflatex"
+  "huylg.out" 1681273819 292 9ebe1d0d93f7c2634093e4e566c16998 "pdflatex"
+  "huylg.tex" 1681272185 9048 e48ffbbe1423684cd3e65ddb0d981396 ""
   (generated)
-  "main.aux"
-  "main.log"
-  "main.out"
-  "main.pdf"
+  "huylg.aux"
+  "huylg.log"
+  "huylg.out"
+  "huylg.pdf"
   (rewritten before read)
